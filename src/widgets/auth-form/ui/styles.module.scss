@@ -1,0 +1,25 @@
+.form {
+  position: relative;
+  max-width: 750px;
+  width: 100%;
+  padding: 36px 40px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0px 20px 20px 0px #00000014;
+
+  &Legend {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  &Close {
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+  }
+}

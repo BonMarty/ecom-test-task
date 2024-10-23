@@ -1,0 +1,21 @@
+.header {
+  padding: 24px 32px;
+
+  &Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &Nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    a {
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 600;
+    }
+  }
+}

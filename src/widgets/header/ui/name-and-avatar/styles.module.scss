@@ -1,0 +1,26 @@
+.nameAndAvatar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  .name {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #0d1421;
+    text-transform: capitalize;
+  }
+
+  .avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b75a2;
+    color: #fff;
+  }
+}

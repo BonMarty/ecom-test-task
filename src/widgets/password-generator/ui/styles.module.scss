@@ -1,0 +1,39 @@
+.passwordGenerator {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &Title {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+  }
+
+  &FormAndResults {
+    display: flex;
+    gap: 29px;
+  }
+
+  &Form,
+  &Results {
+    flex: 1 1 0;
+  }
+
+  &Form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &Checkboxes {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+  &Results {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+}

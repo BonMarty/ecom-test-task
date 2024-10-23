@@ -1,0 +1,9 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  &:checked {
+    background-color: #3b75a2;
+  }
+}

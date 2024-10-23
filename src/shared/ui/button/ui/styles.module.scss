@@ -1,0 +1,15 @@
+.button {
+  width: fit-content;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f5f5f5;
+  background-color: #3b75a2;
+  cursor: pointer;
+
+  &:disabled {
+    pointer-events: none;
+  }
+}

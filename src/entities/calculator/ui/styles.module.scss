@@ -1,0 +1,38 @@
+.calculator {
+  max-width: 438px;
+  overflow: hidden;
+  padding: 42px 20px 66px 20px;
+  border-radius: 6px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #f1f2f3;
+
+  &Output {
+    min-height: 159px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 16px;
+
+    &Previous {
+      font-size: 40px;
+      line-height: 47px;
+      color: #919192;
+      font-weight: 300;
+    }
+
+    &Current {
+      font-size: 96px;
+      line-height: 96px;
+      font-weight: 300;
+    }
+  }
+
+  &Buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+}
